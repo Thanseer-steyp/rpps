@@ -31,7 +31,7 @@ const courses = [
     ratings: 1780,
     total_hours: 49,
     no_of_lectures: 141,
-    level: "Proffessional",
+    level: "Advanced",
     price: 109.99,
   },
   {

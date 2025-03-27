@@ -21,26 +21,28 @@ function Courses(props) {
                         <a class="button" href="https://www.steyp.com">See All</a>
                     </div>
                     <div class="body">
-
                         <ul>
+
                         {courseData.map((course) => (
+
                             <Link to={`/course/${course.id}`} style={linkStyle}>
-                            <li key={course.id} course={course}>
-                            <img class="bg" src={course.image} alt="Course-Image"/>
-                             <h3>{course.title}</h3>
-                             <small>{course.instructor}</small> 
-                             <div class="rating">
-                                 <img src={StarIcon} alt="Star-Icon"/>
-                                 <img src={StarIcon} alt="Star-Icon"/>
-                                 <img src={StarIcon} alt="Star-Icon"/>
-                                 <img src={StarIcon} alt="Star-Icon"/>
-                                 <img class="last" src={StarIcon} alt="Star-Icon"/>
-                                 ({course.ratings})
-                             </div>
-                             <p>{course.total_hours} Total Hours. {course.no_of_lectures} Lectures. {course.level}</p>
-                             <h3 class="price">${course.price}</h3>
-                         </li>
-                         </Link>
+                                <li key={course.id} course={course}>
+                                    <img class="bg" src={course.image} alt="Course-Image"/>
+                                    <h3>{course.title}</h3>
+                                    <small>{course.instructor}</small> 
+                                    <div class="rating">
+                                        <img src={StarIcon} alt="Star-Icon"/>
+                                        <img src={StarIcon} alt="Star-Icon"/>
+                                        <img src={StarIcon} alt="Star-Icon"/>
+                                        <img src={StarIcon} alt="Star-Icon"/>
+                                        <img class="last" src={StarIcon} alt="Star-Icon"/>
+                                        ({course.ratings})
+                                    </div>
+                                    <p>{course.total_hours} Total Hours. {course.no_of_lectures} Lectures. {course.level}</p>
+                                    <h3 class="price">${course.price}</h3>
+                                </li>
+                            </Link>
+                            
                         ))}
                 
                         </ul>

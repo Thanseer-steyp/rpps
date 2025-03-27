@@ -5,7 +5,6 @@ import UserImage from '../assets/icons/span-7.svg'
 import QuoteIcon from "../assets/icons/quotes.svg"
 
 const FeedbacksSlider = () => {
-  // Product data with full details
   const feedbacks = [
     {
       name: "Jane Doe",

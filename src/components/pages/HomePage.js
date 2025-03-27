@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
-import FavIcon from "../assets/icons/logo.ico"
 
 import Header from "../screens/Header"
 import SpotlightSection from '../screens/SpotlightSection';
@@ -17,7 +16,7 @@ function Home(course_title) {
     <>
         <Helmet>
             <title>Byway</title>
-            <link rel="icon" href={FavIcon} type="image/svg+xml"/>
+            <link rel="icon" type="image/svg+xml" href="../assets/icons/logo.svg" />
         </Helmet>
 
         <Header />
