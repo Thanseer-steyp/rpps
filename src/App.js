@@ -1,6 +1,6 @@
 import './App.css';
-import Home from './components/pages/Home';
-import Course from './components/pages/Course';
+import HomePage from './components/pages/HomePage';
+import CoursePage from './components/pages/CoursePage';
 import { BrowserRouter as Router , Routes , Route } from 'react-router-dom';
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route exact path='/course' element={<Course />} />
+          <Route exact path='/' element={<HomePage />} />
+          <Route exact path='/course/:id' element={<CoursePage />} />
         </Routes>
       </Router>
     </>
