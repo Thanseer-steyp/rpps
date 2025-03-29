@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import StarIcon from "../assets/icons/star.svg"
 import EmptyStarIcon from "../assets/icons/EmptyStar.svg"
 import ReviewedUser from '../assets/icons/span-6.svg'

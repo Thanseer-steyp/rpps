@@ -1,14 +1,10 @@
 import React from 'react'
+import "../../App.css"
 import StarIcon from "../assets/icons/star.svg"
 import courseData from "../data/courseData"
 import { Link } from 'react-router-dom';
 
-const linkStyle = {
-    textDecoration: 'none',
-    color: 'inherit',
-    display: 'block',
-    width: 'auto'
-};
+
 
 function Courses(props) {
   return (
@@ -25,7 +21,7 @@ function Courses(props) {
 
                         {courseData.map((course) => (
 
-                            <Link to={`/course/${course.id}`} style={linkStyle}>
+                            <Link to={`/course/${course.id}`} className='linkStyle'>
                                 <li key={course.id} course={course}>
                                     <img class="bg" src={course.image} alt="Course-Image"/>
                                     <h3>{course.title}</h3>

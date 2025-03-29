@@ -1,8 +1,10 @@
 import React from 'react'
+import "../../App.css"
 import Astrology from "../assets/icons/astrology.svg"
 import Development from "../assets/icons/devlopment.svg"
 import Marketing from "../assets/icons/marketing.svg"
 import Physics from "../assets/icons/physics.svg"
+
 
 
 function Categories() {

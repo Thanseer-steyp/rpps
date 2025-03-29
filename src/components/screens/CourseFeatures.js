@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import Instructor from "../assets/icons/span-8.svg"
 import Achieve from "../assets/icons/achive.svg"
 import Cap from "../assets/icons/cap.svg"

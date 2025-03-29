@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import ArrowDown from "../assets/icons/arrow-down.svg"
 
 function Syllabus() {

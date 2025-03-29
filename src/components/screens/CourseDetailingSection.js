@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import ShortArrow from "../assets/icons/short-arrow-right-black.svg"
 import StarIcon from "../assets/icons/star.svg"
 import Instructor from "../assets/icons/span-8.svg"

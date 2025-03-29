@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import Logo from "../assets/icons/logo.svg"
 import WishList from "../assets/icons/wishlist.svg"
 import Bell from "../assets/icons/bell.svg"

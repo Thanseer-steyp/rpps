@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import StarIcon from "../assets/icons/star.svg"
 import InstructorImage from "../assets/images/model-5.jpg"
 

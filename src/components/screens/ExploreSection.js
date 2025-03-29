@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import Model1 from '../assets/images/model-4.jpg'
 import Model2 from '../assets/images/model-6.jpg'
 import ArrowRight from '../assets/icons/arrow-right.svg'

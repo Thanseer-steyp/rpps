@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import "../../App.css"
 import LeftArrow from "../assets/icons/short-arrow-left.svg"
 import RightArrow from "../assets/icons/short-arrow-right.svg"
 import UserImage from '../assets/icons/span-7.svg'
 import QuoteIcon from "../assets/icons/quotes.svg"
+
 
 const FeedbacksSlider = () => {
   const feedbacks = [

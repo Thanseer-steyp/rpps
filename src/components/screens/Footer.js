@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../App.css"
 import Logo from '../assets/icons/logo.svg'
 import FacebookLogo from '../assets/images/fb logo.png'
 import TwitterLogo from '../assets/images/tx logo.png'
